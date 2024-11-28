@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/izzuddinm/go-restapi-mux/helper"
+	helper "github.com/izzuddinm/go-restapi-mux/helpers"
 	"github.com/izzuddinm/go-restapi-mux/models"
 	"gorm.io/gorm"
 )
