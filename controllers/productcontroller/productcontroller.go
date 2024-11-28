@@ -6,15 +6,15 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	helper "github.com/izzuddinm/go-restapi-mux/helpers"
+	"github.com/izzuddinm/go-restapi-mux/helpers"
 	"github.com/izzuddinm/go-restapi-mux/models"
 	"gorm.io/gorm"
 )
 
-var ResponseJson = helper.ResponseJson
-var ResponseSuccess = helper.ResponseSuccess
-var ResponseSuccessWithMessage = helper.ResponseSuccessWithMessage
-var ResponseError = helper.ResponseError
+var ResponseJson = helpers.ResponseJson
+var ResponseError = helpers.ResponseError
+var ResponseSuccess = helpers.ResponseSuccess
+var ResponseSuccessWithMessage = helpers.ResponseSuccessWithMessage
 
 func Index(w http.ResponseWriter, r *http.Request) {
 	// Implementation for listing products
